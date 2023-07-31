@@ -33,6 +33,7 @@ export function History() {
             {section.title}
           </Heading>
         )}
+        px={8}
         contentContainerStyle={exercises.length === 0 && {
           flex: 1, justifyContent: 'center'
         }}
@@ -42,7 +43,7 @@ export function History() {
             Vamos treinar hoje?
           </Text>
         )}
-        px={8}
+        showsVerticalScrollIndicator={false}
       />
 
     </VStack>
