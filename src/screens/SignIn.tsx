@@ -17,7 +17,7 @@ export function SignIn() {
   const navigation = useNavigation<AuthNavigationRoutesProps>()
   
   function handleNewAccount() {
-    navigation.navigate('signUp')
+   navigation.navigate('signUp')
   }
 
   return (
@@ -71,7 +71,7 @@ export function SignIn() {
 
           <Button 
             title='Criar sua conta' variant="outline"
-            onPress={handleNewAccount} 
+            onPress={handleNewAccount}
           />
         </Center>
       </VStack>
